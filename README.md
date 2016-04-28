@@ -4,7 +4,7 @@ Convert an array to an object whose property names map to the array items, and w
 
 ## Example
 
-```
+```javascript
 var arrayToObjectWithPropertyNamesThatMapToArrayValuesAndPropertyValuesThatAreObjectsWithKeysWhoseValuesAlsoMapToArrayValues = require('array-to-object-with-property-names-that-map-to-array-values-and-property-values-that-are-objects-with-keys-whose-values-also-map-to-array-values');
 
 arrayToObjectWithPropertyNamesThatMapToArrayValuesAndPropertyValuesThatAreObjectsWithKeysWhoseValuesAlsoMapToArrayValues(['foo', 'bar'], ['name', 'id']);
